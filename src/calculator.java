@@ -9,8 +9,6 @@ public class calculator {
 
 
 
-
-
     }
 
     public static void plus(int a, int b) {
