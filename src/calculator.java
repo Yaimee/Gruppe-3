@@ -20,5 +20,8 @@ public class calculator {
 
 
     }
+    public static int machine(int a, int b){
+        return a / b;
+    }
 
 }
