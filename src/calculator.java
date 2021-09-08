@@ -5,6 +5,9 @@ public class calculator {
 
         System.out.println("Rasmus er en bandit");
         System.out.println("bandit");
+    }
+    public static void hej() {
+        System.out.println("hejmeddig");
         System.out.println("hej theis");
 
 
