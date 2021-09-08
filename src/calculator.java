@@ -4,5 +4,6 @@ public class calculator {
         System.out.println("hello world");
 
         System.out.println("Rasmus er en bandit");
+        System.out.println("bandit");
     }
 }
