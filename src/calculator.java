@@ -2,7 +2,7 @@ public class calculator {
     public static void main(String[] args) {
 
         System.out.println("hello world");
-machine(10, 2);
+division(10, 2);
 plus(10, 20);
 
 
@@ -22,8 +22,9 @@ plus(10, 20);
 
 
     }
-    public static int machine(int a, int b){
-        return a / b;
+    public static void division(int firstNumber, int secondNumber){
+        double resultDivision = firstNumber/secondNumber;
+        System.out.println(resultDivision);
     }
 
 }
