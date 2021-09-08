@@ -4,8 +4,11 @@ public class calculator {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("hello world");
-division(scanner.nextInt(), scanner.nextInt());
-plus(scanner.nextInt(), scanner.nextInt());
+
+
+        plus(scanner.nextInt(), scanner.nextInt());
+        multiplikation(scanner.nextInt(), scanner.nextInt());
+        division(scanner.nextInt(), scanner.nextInt());
 
 
 
@@ -18,15 +21,20 @@ plus(scanner.nextInt(), scanner.nextInt());
 
     }
 
-    public static void plus(int a, int b) {
-        int result = a+b;
-        System.out.println(result);
+    public static void plus(int firstNumber, int secondNumber) {
+        int resultPlus = firstNumber+secondNumber;
+        System.out.println("The result of "+firstNumber+" + "+secondNumber+" is: "+resultPlus);
 
 
     }
     public static void division(int firstNumber, int secondNumber){
         double resultDivision = firstNumber/secondNumber;
         System.out.println(resultDivision);
+    }
+
+    public static void multiplikation(int firstNumber, int secondNumber) {
+        int resultMultiplikation = firstNumber*secondNumber;
+        System.out.println("The result of "+firstNumber+ " * "+secondNumber+" is: "+resultMultiplikation);
     }
 
 }
