@@ -6,6 +6,9 @@ public class calculator {
         System.out.println("Rasmus er en bandit");
         System.out.println("bandit");
         System.out.println("hej theis");
+
+
+
     }
 
     public static void plus(int a, int b) {
