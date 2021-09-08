@@ -9,4 +9,12 @@ public class calculator {
     public static void hej() {
         System.out.println("hejmeddig");
     }
+
+    public static void plus(int a, int b) {
+        int result = a+b;
+        System.out.println(result);
+
+
+    }
+
 }
