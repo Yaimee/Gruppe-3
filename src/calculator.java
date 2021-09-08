@@ -1,9 +1,11 @@
+import java.util.Scanner;
 public class calculator {
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
 
         System.out.println("hello world");
-division(10, 2);
-plus(10, 20);
+division(scanner.nextInt(), scanner.nextInt());
+plus(scanner.nextInt(), scanner.nextInt());
 
 
 
