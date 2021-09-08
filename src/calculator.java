@@ -2,13 +2,15 @@ public class calculator {
     public static void main(String[] args) {
 
         System.out.println("hello world");
+machine(10, 2);
+plus(10, 20);
 
-        System.out.println("Rasmus er en bandit");
-        System.out.println("bandit");
+
+
     }
     public static void hej() {
         System.out.println("hejmeddig");
-        System.out.println("hej theis");
+
 
 
 
