@@ -8,6 +8,10 @@ public class calculator {
     }
     public static void hej() {
         System.out.println("hejmeddig");
+        System.out.println("hej theis");
+
+
+
     }
 
     public static void plus(int a, int b) {
